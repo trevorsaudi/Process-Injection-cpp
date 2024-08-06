@@ -1,4 +1,4 @@
-# Process-Injection on Windows with C++
+# Process-Injection on Windows with C/C++
 
 - This repository contains C/C++  programs that demonstrate examples of process injection techniques on a Windows system.
 
