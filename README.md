@@ -16,4 +16,11 @@
 
 ## [QueueUserAPC](https://github.com/trevorsaudi/Process-Injection-cpp/tree/main/QueueUserAPC)
 
-- QueueUserAPC is a more sophisticated process injection technique that leverages the Windows Asynchronous Procedure Call (APC) mechanism. It features the `QueueUserAPC()` windows API.
+- . In this method, we abuse the QueueUserAPC WINAPI to queue our shellcode into running processes. This injection eliminates the need for using CreateRemoteThread to create a thread to run the shellcode.
+
+
+## [TinyAES-APCInjection](https://github.com/trevorsaudi/Process-Injection-cpp/tree/main/TinyAES-APCInjection)
+
+- In this example we encrypt the payload using TinyAES, a small portable AES256 encryption wrapper to implement aes encryption.
+
+
